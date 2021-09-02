@@ -112,13 +112,34 @@ docker run -p 5432:5432 --name persistenceperficienttraining -v C:\Users\brayan.
 docker exec -it persistenceperficienttraining psql -U postgres
 ``` 
 
-https://refactorizando.com/ejemplo-spring-data-postgresql-docker/
-https://github.com/4SoftwareDevelopers/demo-crud-spring-boot/tree/develop/
+- https://refactorizando.com/ejemplo-spring-data-postgresql-docker/
+- https://github.com/4SoftwareDevelopers/demo-crud-spring-boot/tree/develop/
 
+En este punto ya estas en el shell de postgres
+
+![image](https://user-images.githubusercontent.com/45188320/131887863-e7005a6e-f7be-4f78-a7c7-c0a4e8415f3a.png)
 
 ``` 
 CREATE DATABASE perficientProject
 ``` 
+## Ver la lista de relaciones
+``` 
+\d
+```
+
+![image](https://user-images.githubusercontent.com/45188320/131887945-ed998f66-bae0-47a0-9308-0d87d8998ee6.png)
+
+Guia completa de comandos en postresql 
+
+```
+http://postgresguide.com/utilities/psql.html
+```
+
+Video de como conectar una base de datos postgres, que esta en un contenedor docker, con dbeaver
+
+```
+https://www.youtube.com/watch?v=b6pYcTr4pCs
+```
 
 ## Como correr el docker compose que se creo por cmd 
 
