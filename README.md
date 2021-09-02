@@ -2,7 +2,9 @@
 
 ## Correr un contenedor
 
-$ doker run imageName
+```
+doker run imageName
+```
 
 ## Descargar una imagen que ya tenias en la maquina y si no existe, tambien lo hace
 
