@@ -44,7 +44,7 @@ docker stop dockerName
 ## crear un contenedor 
 
 ``` 
-docker build -t perficientProject .
+docker build -t perficienttraining .
 ``` 
 
 ## para correr la aplicacion con Docker 
