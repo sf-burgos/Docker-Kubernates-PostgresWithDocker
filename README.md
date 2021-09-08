@@ -154,3 +154,14 @@ version de kubernate
 ``` 
 kubectl version --client=true
 ``` 
+
+## Como matar el proceso de un puerto 
+``` 
+https://medium.com/@javatechie/how-to-kill-the-process-currently-using-a-port-on-localhost-in-windows-31ccdea2a3ea
+``` 
+![image](https://user-images.githubusercontent.com/45188320/132554658-ac119efb-1769-416b-98bd-0134d16da11d.png)
+
+![image](https://user-images.githubusercontent.com/45188320/132554681-b3520b2b-b2d8-4ba4-afac-68c673fb94cc.png)
+
+
+
